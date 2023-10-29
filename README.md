@@ -44,3 +44,5 @@ Thus you can generate the output as shown in the below image
 
 ![output](https://github.com/udaychandp/image.conversion.with.python/assets/114306402/7d3b16db-70d3-4ba4-962e-9a641582e02c)
 
+We can actually extend this project by considering the website full pages and scape all the rows and predict the underrated and lowervalues per square feet 
+
