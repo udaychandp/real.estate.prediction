@@ -7,5 +7,7 @@ I leverage data sourced from Magicbricks, a renowned platform for property listi
 
 > Installing the Libraries through requirements.txt
 
-```pip install requireents.txt```
+```
+pip install requireents.txt
+```
 
