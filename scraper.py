@@ -15,7 +15,7 @@ for_title = soup.find_all('h2',class_='mb-srp__card--title')
 # print(property_listings)
 # print(property_listings[0].find('div', class_='mb-srp__card__price--amount').text.strip())
 
-csv_filename = 'magicbricks_data.csv'
+csv_filename = sys.argv[2]
 
 with open(csv_filename, 'w', newline='', encoding='utf-8') as csv_file:
 
