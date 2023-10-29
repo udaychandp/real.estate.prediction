@@ -1,0 +1,4 @@
+pandas
+sys
+csv
+beautifulsoup4

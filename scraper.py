@@ -4,10 +4,11 @@ import csv
 import sys
 
 
-url = 'https://www.magicbricks.com/property-for-sale/residential-real-estate?bedroom=2,3&proptype=Multistorey-Apartment,Builder-Floor-Apartment,Penthouse,Studio-Apartment,Residential-House,Villa&cityName=Hyderabad'
-# url = sys.argv[1]
+# url = 'https://www.magicbricks.com/property-for-sale/residential-real-estate?bedroom=2,3&proptype=Multistorey-Apartment,Builder-Floor-Apartment,Penthouse,Studio-Apartment,Residential-House,Villa&cityName=Hyderabad'
+url = sys.argv[1]
+print(url)
 response = requests.get(url)
-soup = BeautifulSoup(response.text, 'html')
+soup = BeautifulSoup(response.text, 'html.parser')
 # print(soup)
 property_listings = soup.find_all('div',class_='mb-srp__card__price')
 for_title = soup.find_all('h2',class_='mb-srp__card--title')
